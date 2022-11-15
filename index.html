@@ -444,43 +444,7 @@ demand across and within product categories.</p>
 
 <div id="outline-container-sec-" class="outline-4">
     <h4 id="sec-">Exploring New, Reinforcing Love: Dynamic Product Curations With Quasi-Experiment and Deep Reinforcement Learning</h4>
-    <div class="outline-text-4" id="text-">
-        <button class="collapsible">Extended Abstract</button>
-<div class="content">
-  <p>Platforms employ personalized recommendations (e.g., Amazon “Recommended for You”) to
-expose consumers to a likely preferred subset of the overall product assortment. However,
-personalized recommendations can thus constrain and concentrate consumer choices to products
-akin to their previous consumption rather than good outside options, thereby reinforcing
-consumer prior beliefs and preferences via echo chambers, harming consumer welfare with
-decreased product variety and quality, and hurting consumer sustained consumption in the
-long run. To expand consumer preferences by stimulating their adoption of good products from
-other categories, platforms complement personalized recommendations (PR) with different
-types of novel recommendations (NR) based on (1) social influence (e.g., Amazon “Popular
-Items,” Twitter “Trending Hashtags/Topics”), (2) promotions (e.g., Amazon “Deals,” free
-samples), or (3) product quality (e.g., Amazon “Highly Rated Products”). This paper examines
-the effect of different types of NR (vs. PR) strategies on consumer consumption, and above
-and beyond, how should platforms develop a sequential recommendation policy to maximize
-consumption. Analyzing the reading behavior of consumers on an e-book platform one month before and after an exogenous technology change that NR and PR panels
-were highlighted on the first page of the book feed, we find that, despite the minimal immediate
-effect, the initial NR significantly lift the efficacy of subsequent recommendations on consumer
-consumption in a longer-term starting. However, while social influence- and
-promotion-based NR have a positive effect relative to PR, surprisingly, the product quality based
-NR do not. The asymmetric short vs. long run effects of NR suggest platforms have to
-make intertemporal tradeoffs and be forward-looking to maximize consumer total consumption.
-We apply a novel deep reinforcement learning (DRL) method to derive an optimal policy (of
-when, which recommendation, and to whom) that prescribes the recommendation trajectory for
-each individual to maximize total consumption by cultivating consumer preference expansion
-and reinforcement behaviors. Compared to classical dynamic programming methods, DRL
-combines the advantages of reinforcement learning (RL) and deep learning (DL). RL constructs
-an environment characterized by a Markov decision process (MDP) where an AI agent, without
-assuming full knowledge of the MDP, learns the policy in trial-and-error by interacting with
-the counterfactual demand model. It thus converges to the optimal policy via earning while
-learning. DL handles the massive high-dimensional state-action space in the demand model,
-easing the curse of dimensionality, and parameterizes and approximates the optimal policy
-in the agent without explicitly modeling the state transition probability and reward function, reducing the potential model bias and especially advantageous when the exact modeling of
-MDP is infeasible.</p>
-</div>
-  <span class="brsmall"></span>      
+    <div class="outline-text-4" id="text-">      
 <button class="collapsible">Note</button>
 <div class="content">
 <p>This is an ongoing project. The "big" question we try to solve here is that: we know AI and machine learning algorithms are heavily relied on in product recommendations due to their superior capability of predicting individual preferences and thus personalization power, however, how do they affect consumer consumption in a long term? Are algorithms always good for consumers and platforms, especially from the sustainability perspective? If not, how do marketers step in, intervene, and affect consumer behavior to ensure that both consumers and platforms are better off in the long term, by using marketing mix tools such as new product strategies? We are first leveraging observational recommendation feed data to identify the short- vs. long-term effect of personalized (vs. different types of novel recommendations), and then using ML methods to prescribe the optimal recommendation policy (of "what, when, and who").</p>
